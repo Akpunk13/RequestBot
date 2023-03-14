@@ -96,7 +96,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
         else:
             return True
     except UserNotParticipant:
-        text="""**സിനിമയുടെ file ലഭിക്കുന്നതിനായി നിർബന്ധമായും നമ്മുടെ Update ചാനലിൽ join ചെയ്യേണ്ടതുണ്ട്\n\nRequest to Join Channel ൽ click ചെയ്തശേഷം Try Again കൊടുക്കുക Doubt ഉണ്ടെങ്കിൽ ഈ വീഡിയോ കാണുക-https://youtu.be/gYpUgNx--Bg**"""
+        text="""**സിനിമയുടെ file ലഭിക്കുന്നതിനായി നിർബന്ധമായും നമ്മുടെ Update ചാനലിൽ join ചെയ്യേണ്ടതുണ്ട്\n\nRequest to Join Channel ൽ click ചെയ്തശേഷം Try Again കൊടുക്കുക Doubt ഉണ്ടെങ്കിൽ ഈ വീഡിയോ കാണുക-https://youtube.com/shorts/gYpUgNx--Bg?feature=share**"""
 
         buttons = [
             [
